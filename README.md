@@ -1,2 +1,2 @@
-# transcriber
-NN based transcriber for jazz solos
+# Movie Recommender
+NN based movie recommender
