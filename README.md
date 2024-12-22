@@ -13,7 +13,7 @@ using probabilistic methods.
 # Dataset 
 Dataset used for this project is MovieLens (https://grouplens.org/datasets/movielens/). Place in data/
 
-#Progress
+# Progress
 Downloaded dataset
 Explored dataset structure
 Next: preprocess and implement initial bayesian model 
