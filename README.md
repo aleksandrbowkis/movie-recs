@@ -1,5 +1,5 @@
 # Movie Recommender
-NN based bayesian movie recommender
+NN based collaborative filtering movie recommender
 
 Builds a movie rec system using the MovieLens dataset with the aim of 
 predicting preferences and recommending films with confidence interval 
