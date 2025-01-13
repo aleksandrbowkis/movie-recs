@@ -16,4 +16,5 @@ Dataset used for this project is MovieLens (https://grouplens.org/datasets/movie
 # Progress
 Downloaded dataset
 Explored dataset structure
-Next: preprocess and implement initial bayesian model 
+Visualised dataset with histogram for ratings, genre correlation matrix
+Uploaded to Google Colab, built and trained model, visualised output on scatter plot
