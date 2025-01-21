@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 
-def preprocess_data(ratings_path, movies_path, sample_frac):
+def preprocess_data(ratings_path: str, movies_path: str, sample_frac):
     """
     Load and preprocess MovieLens dataset.
     
@@ -18,8 +18,8 @@ def preprocess_data(ratings_path, movies_path, sample_frac):
         dict containing processed dataframes and encoders
     """
     # Load data
-    ratings = pd.read_csv('ratings_path')
-    movies = pd.read_csv('movies_path')
+    ratings = pd.read_csv(ratings_path)
+    movies = pd.read_csv(movies_path)
 
     # Sample some fraction of data to speed up computations
     ratings = ratings.sample(frac=sample_frac, random_state=42)  
