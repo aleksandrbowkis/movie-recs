@@ -16,7 +16,7 @@ def calculate_metrics(df_predictions, k=10):
     }
     return metrics
 
-def precision_at_k(df_predictions, k=10, relevance_score=0.5):
+def precision_at_k(df_predictions, k=10, relevance_score=0.6):
     """
     Calculate Precision@K for all users and return the average. Defined as # of relevant items in top K predictions / K
     
@@ -55,7 +55,7 @@ def precision_at_k(df_predictions, k=10, relevance_score=0.5):
     mean_precision_at_k = np.mean(precision_k_list)
     return mean_precision_at_k
 
-def recall_at_k(df_predictions, k=5, relevance_score=0.5):
+def recall_at_k(df_predictions, k=5, relevance_score=0.6):
     """
     Calculate Recall@K for all users and return the average. 
     Defined as # of relevant items in top K predictions / total # relevant items for user averaged for all users.
